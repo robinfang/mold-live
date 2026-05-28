@@ -12,7 +12,7 @@ You have {{ skills | length }} skills:
 {% endfor %}`,
   dataJson: `{
   "name": "MoonBit",
-  "skills": ["WASM", "Type Inference", "Pattern Matching"]
+  "skills": ["WASM", "Type Inference", "Pattern Matching", "中文模板渲染"]
 }`,
   outputMode: "text",
 };

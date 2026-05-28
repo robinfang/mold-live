@@ -29,7 +29,8 @@ export const offlineReport: Example = {
   "top_products": [
     { "name": "Widget Pro", "revenue": 52000, "units": 320 },
     { "name": "Gadget X", "revenue": 38400, "units": 240 },
-    { "name": "Tool Kit", "revenue": 21800, "units": 150 }
+    { "name": "Tool Kit", "revenue": 21800, "units": 150 },
+    { "name": "开发者工具", "revenue": 15600, "units": 120 }
   ]
 }`,
   outputMode: "text",

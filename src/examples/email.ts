@@ -28,7 +28,8 @@ Total: \${{ order.total }}
     "id": "10234",
     "items": [
       { "name": "Notebook", "qty": 2, "price": 12 },
-      { "name": "Pen", "qty": 5, "price": 3 }
+      { "name": "Pen", "qty": 5, "price": 3 },
+      { "name": "机械键盘", "qty": 1, "price": 699 }
     ],
     "subtotal": 39,
     "discount": 5,
