@@ -4,6 +4,8 @@ In-browser playground for [mold](https://github.com/robinfang/mold) — a templa
 
 **Live**: https://mold-live.run
 
+![screenshot](docs/screenshot.png)
+
 ## Why
 
 mold runs anywhere WASM runs. MoldLive proves it by rendering templates 100% in your browser, no server roundtrip.
@@ -38,4 +40,3 @@ pnpm test
 
 - [ ] Add PWA manifest for full offline mode
 - [ ] Persist last template in localStorage as fallback to URL state
-- [ ] Optimize bundle size (currently ~110KB gzipped, target <80KB)
