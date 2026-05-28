@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="bg-zinc-950 text-zinc-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="In-browser playground for mold — a lightweight template engine compiled to WASM." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>mold live</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <div id="app" class="flex flex-col min-h-screen">
+      <!-- Topbar -->
+      <header id="topbar" class="h-12 border-b border-zinc-800 flex items-center px-4 shrink-0"></header>
+
+      <!-- Main content -->
+      <main id="main-content" class="flex-1 flex flex-col md:flex-row overflow-hidden">
+        <!-- Template panel -->
+        <section id="template-panel" class="flex-1 flex flex-col border-b md:border-b-0 md:border-r border-zinc-800 overflow-hidden">
+          <div id="template-header" class="h-9 border-b border-zinc-800 flex items-center px-3 shrink-0"></div>
+          <div id="template-editor" class="flex-1 overflow-hidden"></div>
+        </section>
+
+        <!-- Data panel -->
+        <section id="data-panel" class="flex-1 flex flex-col border-b md:border-b-0 md:border-r border-zinc-800 overflow-hidden">
+          <div id="data-header" class="h-9 border-b border-zinc-800 flex items-center px-3 shrink-0"></div>
+          <div id="data-editor" class="flex-1 overflow-hidden"></div>
+        </section>
+
+        <!-- Output panel -->
+        <section id="output-panel" class="flex-1 flex flex-col overflow-hidden">
+          <div id="output-header" class="h-9 border-b border-zinc-800 flex items-center px-3 shrink-0"></div>
+          <div id="output-view" class="flex-1 overflow-auto"></div>
+        </section>
+      </main>
+
+      <!-- Statusbar -->
+      <footer id="statusbar" class="h-8 border-t border-zinc-800 flex items-center px-4 text-xs text-zinc-400 shrink-0"></footer>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
